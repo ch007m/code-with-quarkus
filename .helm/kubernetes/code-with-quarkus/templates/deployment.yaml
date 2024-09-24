@@ -12,6 +12,7 @@ metadata:
     app.kubernetes.io/version: 1.0.0-SNAPSHOT
     app.kubernetes.io/managed-by: quarkus
   name: code-with-quarkus
+  namespace: argocd
 spec:
   replicas: 1
   selector:
